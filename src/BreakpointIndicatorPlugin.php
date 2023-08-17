@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace ReedTech\BreakpointIndicator;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class BreakpointIndicatorPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filament-breakpoint-indicator';
     }
 
     public function register(Panel $panel): void

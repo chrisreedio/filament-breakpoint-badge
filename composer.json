@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "chrisreedio/filament-breakpoint-indicator",
+    "description": "Displays the current Tailwind breakpoint in the Filament header",
     "keywords": [
-        ":vendor_name",
+        "chrisreedio",
         "laravel",
-        ":package_slug"
+        "filament-breakpoint-indicator"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/chrisreedio/filament-breakpoint-indicator",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/chrisreedio/filament-breakpoint-indicator/issues",
+        "source": "https://github.com/chrisreedio/filament-breakpoint-indicator"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Chris Reed",
+            "email": "chris@reedtech.us",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0",
         "illuminate/contracts": "^10.0"
     },
@@ -37,18 +35,17 @@
         "pestphp/pest-plugin-laravel": "^2.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "spatie/laravel-ray": "^1.26"
+        "phpstan/phpstan-phpunit": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "ReedTech\\BreakpointIndicator\\": "src/",
+            "ReedTech\\BreakpointIndicator\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "ReedTech\\BreakpointIndicator\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -68,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "ReedTech\\BreakpointIndicator\\BreakpointIndicatorServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "BreakpointIndicator": "ReedTech\\BreakpointIndicator\\Facades\\BreakpointIndicator"
             }
         }
     },
