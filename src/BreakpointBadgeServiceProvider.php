@@ -20,6 +20,7 @@ class BreakpointBadgeServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package->name(static::$name)
+            ->hasViews()
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->askToStarRepoOnGitHub('chrisreedio/filament-breakpoint-badge');
