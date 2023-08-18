@@ -25,7 +25,6 @@ class BreakpointBadgeServiceProvider extends PackageServiceProvider
                 $command
                     ->askToStarRepoOnGitHub('chrisreedio/filament-breakpoint-badge');
             });
-
     }
 
     protected function getAssetPackageName(): ?string
