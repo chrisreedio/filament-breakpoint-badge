@@ -1,6 +1,6 @@
 <?php
 
-namespace ReedTech\BreakpointIndicator;
+namespace ChrisReedIO\BreakpointBadge;
 
 use Closure;
 use Filament\Contracts\Plugin;
@@ -10,7 +10,7 @@ use Filament\Support\Concerns\EvaluatesClosures;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\View;
 
-class BreakpointIndicatorPlugin implements Plugin
+class BreakpointBadgePlugin implements Plugin
 {
     use EvaluatesClosures;
 
@@ -20,7 +20,7 @@ class BreakpointIndicatorPlugin implements Plugin
 
     public function getId(): string
     {
-        return 'filament-breakpoint-indicator';
+        return 'filament-breakpoint-badge';
     }
 
     public function register(Panel $panel): void
@@ -30,7 +30,7 @@ class BreakpointIndicatorPlugin implements Plugin
                 return '';
             }
 
-            return View::make('filament-breakpoint-indicator::badge', [
+            return View::make('filament-breakpoint-badge::badge', [
                 'color' => $this->getColor(),
                 'environment' => ucfirst(app()->environment()),
             ]);

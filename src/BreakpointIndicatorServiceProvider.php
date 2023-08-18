@@ -1,16 +1,16 @@
 <?php
 
-namespace ReedTech\BreakpointIndicator;
+namespace ChrisReedIO\BreakpointBadge;
 
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class BreakpointIndicatorServiceProvider extends PackageServiceProvider
+class BreakpointBadgeServiceProvider extends PackageServiceProvider
 {
-    public static string $name = 'filament-breakpoint-indicator';
+    public static string $name = 'filament-breakpoint-badge';
 
-    // public static string $viewNamespace = 'filament-breakpoint-indicator';
+    // public static string $viewNamespace = 'filament-breakpoint-badge';
 
     public function configurePackage(Package $package): void
     {
@@ -22,12 +22,12 @@ class BreakpointIndicatorServiceProvider extends PackageServiceProvider
         $package->name(static::$name)
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
-                    ->askToStarRepoOnGitHub('chrisreedio/filament-breakpoint-indicator');
+                    ->askToStarRepoOnGitHub('chrisreedio/filament-breakpoint-badge');
             });
     }
 
     protected function getAssetPackageName(): ?string
     {
-        return 'chrisreedio/filament-breakpoint-indicator';
+        return 'chrisreedio/filament-breakpoint-badge';
     }
 }
