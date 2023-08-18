@@ -2,17 +2,6 @@
 
 namespace ReedTech\BreakpointIndicator;
 
-use Filament\Support\Assets\AlpineComponent;
-use Filament\Support\Assets\Asset;
-use Filament\Support\Assets\Css;
-use Filament\Support\Assets\Js;
-use Filament\Support\Facades\FilamentAsset;
-use Filament\Support\Facades\FilamentIcon;
-use Filament\Support\Icons\Icon;
-use Illuminate\Filesystem\Filesystem;
-use Livewire\Features\SupportTesting\Testable;
-use ReedTech\BreakpointIndicator\Commands\BreakpointIndicatorCommand;
-use ReedTech\BreakpointIndicator\Testing\TestsBreakpointIndicator;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

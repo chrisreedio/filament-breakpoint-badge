@@ -15,7 +15,8 @@ class BreakpointIndicatorPlugin implements Plugin
     use EvaluatesClosures;
 
     public bool | Closure | null $visible = null;
-	public array | Closure | null $color = null;
+
+    public array | Closure | null $color = null;
 
     public function getId(): string
     {
@@ -46,7 +47,7 @@ class BreakpointIndicatorPlugin implements Plugin
     {
         $plugin = app(static::class);
 
-		// Defaults
+        // Defaults
         $plugin->visible(function () {
             if (App::environment('production')) {
                 return false;
@@ -62,7 +63,7 @@ class BreakpointIndicatorPlugin implements Plugin
             default => Color::Gray,
         });
 
-		return $plugin;
+        return $plugin;
     }
 
     public static function get(): static
@@ -73,15 +74,14 @@ class BreakpointIndicatorPlugin implements Plugin
         return $plugin;
     }
 
-
-	public function visible(bool|Closure $visible): static
+    public function visible(bool | Closure $visible): static
     {
         $this->visible = $visible;
 
         return $this;
     }
 
-	public function color(array|Closure $color = Color::Gray): static
+    public function color(array | Closure $color = Color::Gray): static
     {
         $this->color = $color;
 
