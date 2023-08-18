@@ -1,7 +1,7 @@
 # Tailwind Breakpoint Badge for Filament v3 Header
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/chrisreedio/filament-breakpoint-badge.svg?style=flat-square)](https://packagist.org/packages/chrisreedio/filament-breakpoint-badge)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/chrisreedio/filament-breakpoint-badge/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/chrisreedio/filament-breakpoint-badge/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/chrisreedio/filament-breakpoint-badge/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/chrisreedio/filament-breakpoint-badge/actions?query=workflow%3A%22Fix+PHP+Code+Styling%22+branch%3A3.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/chrisreedio/filament-breakpoint-badge.svg?style=flat-square)](https://packagist.org/packages/chrisreedio/filament-breakpoint-badge)
 
 Breakpoint Badge is a lightweight extension for FilamentPHP that adds a real-time breakpoint badge to the header, streamlining the debugging process. 
