@@ -1,15 +1,18 @@
 {
-    "name": "chrisreedio/filament-breakpoint-indicator",
+    "name": "chrisreedio/filament-breakpoint-badge",
     "description": "Displays the current Tailwind breakpoint in the Filament header",
     "keywords": [
         "chrisreedio",
         "laravel",
-        "filament-breakpoint-indicator"
+        "filament",
+		"tailwind",
+		"breakpoints",
+		"dev-tools"
     ],
-    "homepage": "https://github.com/chrisreedio/filament-breakpoint-indicator",
+    "homepage": "https://github.com/chrisreedio/filament-breakpoint-badge",
     "support": {
-        "issues": "https://github.com/chrisreedio/filament-breakpoint-indicator/issues",
-        "source": "https://github.com/chrisreedio/filament-breakpoint-indicator"
+        "issues": "https://github.com/chrisreedio/filament-breakpoint-badge/issues",
+        "source": "https://github.com/chrisreedio/filament-breakpoint-badge"
     },
     "license": "MIT",
     "authors": [
@@ -39,13 +42,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ReedTech\\BreakpointIndicator\\": "src/",
-            "ReedTech\\BreakpointIndicator\\Database\\Factories\\": "database/factories/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ReedTech\\BreakpointIndicator\\Tests\\": "tests/"
+            "ChrisReedIO\\BreakpointBadge\\": "src/"
         }
     },
     "scripts": {
@@ -65,11 +62,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ReedTech\\BreakpointIndicator\\BreakpointIndicatorServiceProvider"
-            ],
-            "aliases": {
-                "BreakpointIndicator": "ReedTech\\BreakpointIndicator\\Facades\\BreakpointIndicator"
-            }
+                "ChrisReedIO\\BreakpointBadge\\BreakpointBadgeServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
