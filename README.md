@@ -1,7 +1,6 @@
 # Tailwind Breakpoint Badge for Filament v3 Header
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/chrisreedio/filament-breakpoint-badge.svg?style=flat-square)](https://packagist.org/packages/chrisreedio/filament-breakpoint-badge)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/chrisreedio/filament-breakpoint-badge/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/chrisreedio/filament-breakpoint-badge/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/chrisreedio/filament-breakpoint-badge/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/chrisreedio/filament-breakpoint-badge/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/chrisreedio/filament-breakpoint-badge.svg?style=flat-square)](https://packagist.org/packages/chrisreedio/filament-breakpoint-badge)
 
