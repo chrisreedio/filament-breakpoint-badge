@@ -11,11 +11,11 @@ use Filament\Support\Facades\FilamentIcon;
 use Filament\Support\Icons\Icon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use ReedTech\BreakpointIndicator\Commands\BreakpointIndicatorCommand;
+use ReedTech\BreakpointIndicator\Testing\TestsBreakpointIndicator;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ReedTech\BreakpointIndicator\Commands\BreakpointIndicatorCommand;
-use ReedTech\BreakpointIndicator\Testing\TestsBreakpointIndicator;
 
 class BreakpointIndicatorServiceProvider extends PackageServiceProvider
 {
