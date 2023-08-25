@@ -19,7 +19,7 @@ composer require chrisreedio/filament-breakpoint-badge
 To use this plugin register it in your panel configuration:
 
 ```php
-use ChrisReedIO\FilamentBreakpointBadge\BreakpointBadgePlugin;
+use ChrisReedIO\BreakpointBadge\BreakpointBadgePlugin;
 
 $panel
     ->plugins([
@@ -33,7 +33,7 @@ By default, the plugin displays the breakpoint badge in all non-production envir
 You can further customize whether the badges should be shown.
 
 ```php
-use ChrisReedIO\FilamentBreakpointBadge\BreakpointBadgePlugin;
+use ChrisReedIO\BreakpointBadge\BreakpointBadgePlugin;
 
 $panel->plugins([
     BreakpointBadgePlugin::make()
